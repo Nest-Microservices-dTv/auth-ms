@@ -16,3 +16,5 @@ steps:
         'push',
         'europe-west12-docker.pkg.dev/products-microservices-426815/image-registry/auth-ms',
       ]
+options:
+  logging: CLOUD_LOGGING_ONLY
